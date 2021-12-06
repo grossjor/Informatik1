@@ -20,3 +20,4 @@ Teilweise nur auf eine Sprache beschränkt
 Teilweise weniger direkte Kontrolle
 Oft sehr große Programme
 Überladenes Design
+Erzeugt viel Dateimüll
