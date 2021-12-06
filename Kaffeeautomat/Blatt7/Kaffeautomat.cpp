@@ -37,10 +37,10 @@ if(n=="e"){
 
 }
 if(n=="s"){
-  std::cout << "Sie haben sich f"<<(char)129<<"r Auswahl e Entschieden" << '\n';
-  std::cout << "Der Servicemode ist zuzeit nicht verf"<<(char)207<<"gbar" << '\n';
+  std::cout << "Sie haben sich f"<<(char)129<<"r Auswahl s Entschieden" << '\n';
+  std::cout << "Der Servicemode ist zuzeit nicht verf"<<(char)129<<"gbar" << '\n';
     sleep (3);
-    std::cout << "Zurück zum Men"<<(char)207<<"" << '\n';
+    std::cout << "Zur"<<(char)129<<"ck zum Men"<<(char)129<<"" << '\n';
       sleep (3);
       return main();
 
