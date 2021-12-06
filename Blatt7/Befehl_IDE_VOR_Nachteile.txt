@@ -1,0 +1,22 @@
+g++ -o helloworld Helloworld.cpp                        fürs erstellen der exe datei
+g++ -o helloworld Helloworld.cpp&helloworld.exe         führt die Datein dann auch noch in cmd aus und zeig den output.
+
+
+
+
+
+Vorteile eines ide
+Sammelt Funktionen an einem Ort
+Sinnvolle Tools, wie Debugger sind meist Integriert
+Graphisches erstellen von Programmoberflächen möglich(siehe Visual Basic in Visual Studio)
+Syntax Highlighting
+Fast repetetive Tätigkeiten zusammen
+
+
+
+
+Nachteile
+Teilweise nur auf eine Sprache beschränkt
+Teilweise weniger direkte Kontrolle
+Oft sehr große Programme
+Überladenes Design
