@@ -7,6 +7,9 @@
 #include <windows.h>
 
 int main () {
+  while (true) {
+    /* code */
+
 system("cls");
 std::string n = "astring";
 std::cout << "Herzlich Willkommen beim Kaffee-Automaten" << '\n';
@@ -23,7 +26,7 @@ if(n=="k"){
     sleep (3);
     std::cout << "Kaffee ist Fertig" << '\n';
       sleep (3);
-      return main();
+
 
 
 }
@@ -33,17 +36,17 @@ if(n=="e"){
     sleep (3);
     std::cout << "Espresso ist Fertig" << '\n';
       sleep (3);
-      return main();
+
 
 }
 if(n=="s"){
-  std::cout << "Sie haben sich f"<<(char)129<<"r Auswahl e Entschieden" << '\n';
-  std::cout << "Der Servicemode ist zuzeit nicht verf"<<(char)207<<"gbar" << '\n';
+  std::cout << "Sie haben sich f"<<(char)129<<"r Auswahl s Entschieden" << '\n';
+  std::cout << "Der Servicemode ist zuzeit nicht verf"<<(char)129<<"gbar" << '\n';
     sleep (3);
-    std::cout << "Zurück zum Men"<<(char)207<<"" << '\n';
+    std::cout << "Zur"<<(char)129<<"ck zum Men"<<(char)129<<"" << '\n';
       sleep (3);
-      return main();
-
+}
+sleep (2);
 }
 return main();
 }
