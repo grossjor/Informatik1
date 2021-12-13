@@ -19,6 +19,6 @@ using std::string;
    zeichen = laenge;
    std::cout << laenge << " " << l << " " << zeichen << endl;
  string messlatte { "777.77" };
-   //laenge = static_cast<double>(messlatte);
+   //laenge = static_cast<double>(messlatte);  //sorgt für fehler beim compilieren
   return 0;
 }
