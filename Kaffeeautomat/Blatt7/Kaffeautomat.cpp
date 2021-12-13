@@ -8,6 +8,7 @@
 
 int main () {
 system("cls");
+int #hashtag
 std::string n = "astring";
 std::cout << "Herzlich Willkommen beim Kaffee-Automaten" << '\n';
 std::cout << "Bitte w"<<(char)132<<"hlen sie aus:" << '\n';
