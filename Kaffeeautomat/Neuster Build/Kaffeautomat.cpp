@@ -9,7 +9,6 @@
 int main () {
   while (true) {
 
-
 system("cls");
 std::string n = "astring";
 std::cout << "Herzlich Willkommen beim Kaffee-Automaten" << '\n';
