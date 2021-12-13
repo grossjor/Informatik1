@@ -16,9 +16,9 @@ using namespace std;
  a = -5 - 5;		// a wird der Wert -5 - 5 = -10 zugewiesen.
  a = -(+b++);		// a wird der Wert -(+b++) = -(2+1) = -3 zugewiesen.
  a = 5 == 5 && 0 || 1;		// a ist -3 und somit weder 0 noch 1. a ist auch nicht 5, somit ist a = false. (Also 0)
- a = ((((((b + b) * 2) + b) && b || b)) == b);	//
- a = b + ++b;
- a = sizeof(int) * sizeof(a);
+ a = ((((((b + b) * 2) + b) && b || b)) == b);	// (b+b)*2+b =4*2+2 = 10; b=2. a ist weder 10 noch 2. die innere Klammer(AND-Operation) ist also false(0). Da a = false(0), ist die OR-Operation true(a=1). Da b = 2, also ungleich 1 ist, ist a also insgesamt false(0).
+ a = b + ++b;		// a wird der Wert b + (b+1) = 2+3 =5 zugewiesen.
+ a = sizeof(int) * sizeof(a);	//a wird dem quadrat des Werts der größe (in bytes) zugewiesen, die ein integer hat, da sizeof(int) = 4 und sizeof(a) = 4. a ist also = 16.
 
  return 0;
  }
