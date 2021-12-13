@@ -15,3 +15,21 @@ B.4.1.6 Datentypen
 4. Strings				String std::string
 5. Booleschen Werten	bool
 6. Natürlichen Zahlen   byte(8bit), short(16bit), int(32bit), long(bit); bzw. unsigned int, unsigned short, etc. für nur positive Werte.
+
+4.2.1
+2=a 2=b
+17=a 2=b
+25=a 2=b
+250=a 2=b weil *= wie a*(5+5)
+4=a 2=b weil %= modulo operator
+1=a 1=b ist ein boolscher operator, und 1 ist wahr
+0=a 1=b a ist das gegenteil vom gegenteil von b==0
+2=a 2=b kein plan warum
+-10=a 2=b a=-5-5
+-2=a 3=b
+1=a 3=b
+0=a 3=b
+8=a 4=b
+16=a 4=b 4 bit int * 4 bit int
+
+Teilweise ohne erklärung, weil ich nicht verstehe warum das so passiert konvertiert wie es tut.
