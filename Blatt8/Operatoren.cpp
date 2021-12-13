@@ -22,3 +22,19 @@ using namespace std;
 
  return 0;
  }
+ /* Compiler-Werte:
+ 2=a 2=b	stimmt überein
+ 17=a 2=b	stimmt überein
+ 25=a 2=b	stimmt überein
+ 250=a 2=b	stimmt überein
+ 4=a 2=b	stimmt überein
+ 1=a 1=b	b falsch
+ 0=a 1=b	b falsch
+ 2=a 2=b	a falsch weil b falsch -> a=++true *2 = (1+1)*2 =2
+-10=a 2=b	stimmt überein
+-2=a 3=b	?
+1=a 3=b		a stimmt überein
+0=a 3=b		a stimmt überein
+8=a 4=b		a falsch weil b falsch. b(3) wird mit ++b zu 4. 4+4=8=a.
+16=a 4=b	stimmt überein.
+ /*
