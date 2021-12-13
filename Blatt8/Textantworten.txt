@@ -1,15 +1,17 @@
-ungültige variablen :
-2be_or_not_to_be  darf nicht mit zahl beginnen
-_system   reservierte variable
-#hashtag    wird wie bei #include als operator verstanden
+B.4.1.5 Variablennamen
+1. variablenname		Ist ein gültiger Variablenname.
+2. 2be_or_not_to_be		Variablennamen dürfen nicht mit einer Zahl beginnen.
+3. vorname.nachname		Variablennamen dürfen nicht mit Sonderzeichen beginnen bzw. auch keine enthalten. Der . wird z.B. zum Aufrufen eines Objektes verwendet.
+4. _system				Ist bereits eine reservierte Variable. Allgemein darf eine Variable aber mit einem Unterstrich beginnen.
+5. #hashtag				Variablennamen dürfen nicht mit Sonderzeichen beginnen bzw. auch keine enthalten. Das # wird wie bei #include als operator verstanden.
+6. SiebenMeilenStiefel	Ist ein gültiger Variablenname.
 
 
+B.4.1.6 Datentypen
 
-4.1.6 Datentypen
-
-1. Gleitpunktzahlen        double(64bit), float(32bit)
-2. Ganzen Zahlen        byte(8bit), short(16bit), int(32bit), long(bit)
-3. Zeichen            char(16bit)
-4. Strings            String std::string
-5. Booleschen Werten        bool
-6. Natürlichen Zahlen        byte(8bit), short(16bit), int(32bit), long(bit) , unsigned int, unsigned short
+1. Gleitpunktzahlen		double(64bit), float(32bit)
+2. Ganzen Zahlen		byte(8bit), short(16bit), int(32bit), long(bit)
+3. Zeichen				char(16bit)
+4. Strings				String std::string
+5. Booleschen Werten	bool
+6. Natürlichen Zahlen   byte(8bit), short(16bit), int(32bit), long(bit); bzw. unsigned int, unsigned short, etc. für nur positive Werte.
