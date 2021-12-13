@@ -7,9 +7,9 @@ _system   reservierte variable
 
 4.1.6 Datentypen
 
-float
-int
-std::string
-std::string
-bool
-int
+1. Gleitpunktzahlen        double(64bit), float(32bit)
+2. Ganzen Zahlen        byte(8bit), short(16bit), int(32bit), long(bit)
+3. Zeichen            char(16bit)
+4. Strings            String std::string
+5. Booleschen Werten        bool
+6. Natürlichen Zahlen        byte(8bit), short(16bit), int(32bit), long(bit) , unsigned int, unsigned short
