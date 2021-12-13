@@ -22,7 +22,8 @@ if(n=="k"){
   std::cout << "Ihr Getr"<<(char)132<<"nk wird zubereitet" << '\n';
     sleep (3);
     std::cout << "Kaffee ist Fertig" << '\n';
-      sleep (3);
+      sleep (3);  //theoretisch ist sleep in millisekunden, kann aber wohl in sekunden sein, was es bei mir anscheinend ist
+
       return main();
 
 
