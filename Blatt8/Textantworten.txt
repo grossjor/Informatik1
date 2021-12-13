@@ -2,3 +2,14 @@ ungültige variablen :
 2be_or_not_to_be  darf nicht mit zahl beginnen
 _system   reservierte variable
 #hashtag    wird wie bei #include als operator verstanden
+
+
+
+4.1.6 Datentypen
+
+float
+int
+std::string
+std::string
+bool
+int
