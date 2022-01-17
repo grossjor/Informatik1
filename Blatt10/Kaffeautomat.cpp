@@ -6,6 +6,7 @@
 #include <unistd.h>
 #include <windows.h>
 
+
 float Kaffeebohnen;
 float Espressobohnen;
 float Wasser;
@@ -32,6 +33,7 @@ while (true) {
   system("cls");
     std::string milk = "astring";
     std::string sugar ="astring";
+    std::string password ="astring";
     std::string n = "astring";
     std::cout << "Herzlich Willkommen beim Kaffee-Automaten" << '\n';
     std::cout << "Preis pro Tasse: 1 Euro" << '\n';
@@ -117,15 +119,25 @@ while (true) {
 
     if(n=="s"){
         std::cout << "Sie haben sich f"<<(char)129<<"r Auswahl s Entschieden" << '\n';
+        system("echo off");
+        std::cout << "Bitte Passwort eingeben:" << '\n'; //Da getch nicht in minGW enthalten ist bräuchte ich Hilfe wie man das ersetzt, da die Beispiele die genannt wurden etwa 3 mal länger ist als mein Programm
+        std::cin >> password;
+        if (password == "passwd") {
         std::cout << "Kaffebohnen"<<Kaffeebohnen << '\n';
         std::cout << "Espressobohnen"<<Espressobohnen << '\n';
         std::cout << "Wassser"<<Wasser << '\n';
         std::cout << "Milch"<<Milch << '\n';
         std::cout << "Zucker"<<Zucker << '\n';
-        sleep (5);
-        std::cout << "Zur"<<(char)129<<"ck zum Men"<<(char)129<<"" << '\n';
+        sleep(6);
+      }
+
+  else{
+    std::cout << "Falsches Passwort! Zugang zum Service Interface verweigert!" << '\n';
+    sleep(2);
+  }
+  system("echo on");
 }
-  sleep (2);
+
 }
 
 }
